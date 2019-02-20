@@ -7,7 +7,7 @@ remote_theme:     fongandrew/hydeout
 title:            Puja's Blog
 tagline:          'Computer Science, Math and Cooking'
 description:      'Contains a collection of useful information from CS, Math and Cooking. '
-url:              https://pindapuj.github.io
+url:              https://trivedi2.github.io
 baseurl:          '/blog'
                   # the optional subpath of your site, e.g. "/blog"
                   # NB: This applies to all pages in your Jekyll site.
@@ -17,7 +17,7 @@ baseurl:          '/blog'
 
 author:           
   name:           'Puja'
-  url:            https://pindapuj.github.io
+  url:            https://trivedi2.github.io
 
 paginate:         5
 # paginate_path:    '/page:num'
