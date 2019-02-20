@@ -3,6 +3,7 @@ markdown:         kramdown
 highlighter:      rouge
 
 # Setup
+remote_theme:     fongandrew/hydeout
 title:            Puja's Blog
 tagline:          'Computer Science, Math and Cooking'
 description:      'Contains a collection of useful information from CS, Math and Cooking. '
