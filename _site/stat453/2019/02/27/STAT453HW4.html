@@ -14,7 +14,7 @@
 
   <title>
     
-      STAT453 &middot; Puja's Blog
+      STAT453 HW4 &middot; Puja's Blog
     
   </title>
 
@@ -38,7 +38,7 @@
 </head>
 
 
-  <body class="category">
+  <body class="post">
 
     <div id="sidebar">
   <header>
@@ -106,7 +106,7 @@
 
   
     
-      <a class="category-link  active"
+      <a class="category-link "
           href="/category/STAT453.html">STAT453</a>
     
   
@@ -194,37 +194,72 @@
 
     <main class="container">
       <header>
-  <h1 class="page-title">STAT453</h1>
+  <h1 class="post-title">STAT453 HW4</h1>
 </header>
 <div class="content">
-  
-  <p>Various problems from Introduction to Mathematical Statistics.</p>
+  <div class="post-meta">
+  <span class="post-date">27 Feb 2019</span>
+  <span class="post-categories">
+    
+      &bull;
 
+      
+      
+      
 
-
-
-<ul class="posts-list">
-  
-  
-    <li>
-      <h3>
-        <a href="/stat453/2019/02/27/STAT453HW4.html">
-          STAT453 HW4
-          <small>27 Feb 2019</small>
+      
+        <a href="/category/STAT453.html">
+          STAT453
         </a>
-      </h3>
-    </li>
+      
+    
+  </span>
+</div>
+
+
+  <div class="post-body">
+    
+<p>Let <script type="math/tex">\overline{X}</script> denote the mean of a random sample of size 144 from a distribution that is <script type="math/tex">\chi^2(32)</script>. Compute an approxiamate value of <script type="math/tex">% <![CDATA[
+P(31 < \overline{X} < 33) %]]></script></p>
+
+<h3 id="solution">Solution</h3>
+
+<p>We will use the central limit theorem. Recall:</p>
+
+<p><script type="math/tex">X_1 \dots X_n</script> are a random sample with <script type="math/tex">E(x) = \mu</script> and <script type="math/tex">% <![CDATA[
+Var(X) = \sigma^2 < \infty %]]></script> (and the MGF exists). Then <script type="math/tex">y = \sqrt{n}(\overline{X} - \mu)\frac{1}{\sigma} \rightarrow^L Z \sim N(0,1)</script></p>
+
+<p>By properties of the chi-square distribution, we know that</p>
+
+<p><script type="math/tex">E(X_i) = k = 32</script> and <script type="math/tex">Var(X_i) = \sigma^2 = 2k = 64.</script> Thus to approxiamate <script type="math/tex">% <![CDATA[
+P(31 < \overline{X} < 33) %]]></script> with the Central Limit Theorem, we must first “normalize” the original statement. We have <script type="math/tex">% <![CDATA[
+P [ \frac{ \sqrt(144)(31 -32)}{8} < z <  \frac{ \sqrt(144)(33 -32)}{8}] =  P [-1.5 < z < 1.5] \\ \implies \phi (1.5) - \phi(-1.5) = \phi (1.5) - (1 - \phi(1.5)) = .9332 - .0668 = 0.8664 %]]></script></p>
+
+    
+
+
+
+<div class="post-tags">
   
-    <li>
-      <h3>
-        <a href="/stat453/2019/02/20/STAT453HW3Q2.html">
-          STAT453 HW3 Q2
-          <small>20 Feb 2019</small>
-        </a>
-      </h3>
-    </li>
+</div>
+  </div>
+
   
-</ul>
+  <section class="related">
+  <h2>Related Posts</h2>
+  <ul class="posts-list">
+    
+      <li>
+        <h3>
+          <a href="/stat453/2019/02/20/STAT453HW3Q2.html">
+            STAT453 HW3 Q2
+            <small>20 Feb 2019</small>
+          </a>
+        </h3>
+      </li>
+    
+  </ul>
+</section>
 
 </div>
 
